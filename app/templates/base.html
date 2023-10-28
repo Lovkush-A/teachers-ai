@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My OpenAI App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>My OpenAI App</h1>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
